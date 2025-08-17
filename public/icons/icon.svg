@@ -1,0 +1,65 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0ea5e9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="256" cy="256" r="240" fill="url(#bgGradient)" stroke="#ffffff" stroke-width="8"/>
+  
+  <!-- Brain icon -->
+  <g transform="translate(128, 128) scale(0.5)">
+    <!-- Brain outline -->
+    <path d="M256 80c-44.18 0-80 35.82-80 80 0 35.35 28.65 64 64 64s64-28.65 64-64c0-44.18-35.82-80-80-80z" 
+          fill="url(#brainGradient)" stroke="#1e40af" stroke-width="8"/>
+    
+    <!-- Brain details -->
+    <path d="M200 160c-8.84 0-16 7.16-16 16s7.16 16 16 16 16-7.16 16-16-7.16-16-16-16z" fill="#1e40af"/>
+    <path d="M312 160c-8.84 0-16 7.16-16 16s7.16 16 16 16 16-7.16 16-16-7.16-16-16-16z" fill="#1e40af"/>
+    
+    <!-- Brain folds -->
+    <path d="M240 200c0-8.84 7.16-16 16-16s16 7.16 16 16-7.16 16-16 16-16-7.16-16-16z" fill="#1e40af"/>
+    <path d="M200 240c0-8.84 7.16-16 16-16s16 7.16 16 16-7.16 16-16 16-16-7.16-16-16z" fill="#1e40af"/>
+    <path d="M296 240c0-8.84 7.16-16 16-16s16 7.16 16 16-7.16 16-16 16-16-7.16-16-16z" fill="#1e40af"/>
+  </g>
+  
+  <!-- Study elements -->
+  <g transform="translate(350, 100)">
+    <!-- Book -->
+    <rect x="0" y="0" width="40" height="50" rx="4" fill="#ffffff" opacity="0.9"/>
+    <rect x="4" y="4" width="32" height="42" rx="2" fill="#0ea5e9" opacity="0.8"/>
+    <line x1="8" y1="12" x2="32" y2="12" stroke="#ffffff" stroke-width="2"/>
+    <line x1="8" y1="18" x2="28" y2="18" stroke="#ffffff" stroke-width="2"/>
+    <line x1="8" y1="24" x2="30" y2="24" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  
+  <g transform="translate(80, 350)">
+    <!-- Flashcard -->
+    <rect x="0" y="0" width="50" height="35" rx="4" fill="#ffffff" opacity="0.9"/>
+    <rect x="3" y="3" width="44" height="29" rx="2" fill="#10b981" opacity="0.8"/>
+    <line x1="8" y1="10" x2="42" y2="10" stroke="#ffffff" stroke-width="2"/>
+    <line x1="8" y1="18" x2="38" y2="18" stroke="#ffffff" stroke-width="2"/>
+    <line x1="8" y1="26" x2="35" y2="26" stroke="#ffffff" stroke-width="2"/>
+  </g>
+  
+  <!-- Sparkles for AI effect -->
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="380" cy="80" r="3"/>
+    <circle cx="400" cy="100" r="2"/>
+    <circle cx="360" cy="120" r="2.5"/>
+    <circle cx="420" cy="140" r="2"/>
+    <circle cx="340" cy="160" r="2.5"/>
+  </g>
+  
+  <!-- App name -->
+  <text x="256" y="480" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="24" font-weight="600" fill="#ffffff" opacity="0.9">
+    StudyMate
+  </text>
+</svg> 
